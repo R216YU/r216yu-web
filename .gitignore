@@ -11,3 +11,8 @@ dist-ssr
 .vinxi
 __unconfig*
 todos.json
+
+# Alchemy: .alchemy/state だけリポジトリで管理し、それ以外(ログ・キャッシュ等)は無視
+.alchemy/*
+!.alchemy/state/
+

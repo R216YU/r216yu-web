@@ -1,0 +1,60 @@
+{
+  "status": "updated",
+  "fqn": "Website",
+  "logicalId": "Website",
+  "instanceId": "0d5fde8135dd228bee9d9ac49a684ed2",
+  "resourceType": "Cloudflare.Worker",
+  "props": {
+    "name": "r216yu-web",
+    "domain": {
+      "name": "r216yu.xyz",
+      "aliases": [
+        "www.r216yu.xyz"
+      ]
+    },
+    "vite": {},
+    "isExternal": true
+  },
+  "attr": {
+    "workerId": "2213ddb9d2394e10bfefb131bc16036b",
+    "workerName": "r216yu-web",
+    "logpush": false,
+    "url": "https://r216yu.xyz",
+    "urls": [
+      "https://r216yu.xyz",
+      "https://www.r216yu.xyz",
+      "https://r216yu-web.r216yu.workers.dev"
+    ],
+    "domain": {
+      "name": "r216yu.xyz",
+      "aliases": [
+        "www.r216yu.xyz"
+      ],
+      "redirects": []
+    },
+    "tags": [
+      "alchemy:stack:r216yu-web",
+      "alchemy:stage:live_r216y",
+      "alchemy:id:Website"
+    ],
+    "durableObjectNamespaces": {},
+    "accountId": "19de6a9a1e7c3f47ced37f04227f614b",
+    "routes": [],
+    "crons": [],
+    "tailConsumers": [],
+    "hash": {
+      "assets": "64e2cf28d69323cec7ff692e25340c78287f6ddfbabc7dc2da09bf1aa0798eb7",
+      "bundle": "cb61de559a49ec75a39a850f2835cc839a83bfa2755353ef59be7ef4e4dfeb7f",
+      "input": "4606d751ffa1b4e0cc5dc857dc81f083f1a72ef376ea42de79418c2374bb6c2a",
+      "additionalWorkspaces": [
+        ""
+      ],
+      "metadata": "a47c314b40b2fdf12f74d2ad35576f5f11394c8718f477b5975f964c66f4a9c4"
+    }
+  },
+  "bindings": [],
+  "providerVersion": 0,
+  "downstream": [],
+  "removalPolicy": "destroy",
+  "providerMode": "live"
+}
